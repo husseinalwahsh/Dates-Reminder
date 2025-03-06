@@ -1,9 +1,9 @@
+import { Button, Col, Container, Row } from "react-bootstrap";
 import DatesReminder from "./element/DatesReminder";
-
+import "./index.css";
 function App() {
   return (
-    <div className="App">
-      <h3> عدد المواعيد</h3>
+    <div>
       <DatesReminder />
     </div>
   );
