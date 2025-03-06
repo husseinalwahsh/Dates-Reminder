@@ -1,4 +1,3 @@
-import { Button, Col, Container, Row } from "react-bootstrap";
 import DatesReminder from "./element/DatesReminder";
 import "./index.css";
 function App() {
