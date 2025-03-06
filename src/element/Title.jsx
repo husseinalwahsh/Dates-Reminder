@@ -5,7 +5,7 @@ function Title({ length }) {
   return (
     <Row className="justify-content-center my-2">
       <Col sm="8" className="">
-        لديك {length} مواعيد
+        لديك {length.length} مواعيد
       </Col>
     </Row>
   );
