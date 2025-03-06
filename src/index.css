@@ -1,3 +1,7 @@
+.body-style {
+  background: "#f8f8f8f8";
+  height: "100vh";
+}
 .almarai-light {
   font-family: "Almarai", sans-serif;
   font-weight: 300;
@@ -16,7 +20,7 @@
   font-style: normal;
 }
 .rectangle {
-  height: 600px;
+  height: fit-content;
   border-radius: 15px;
   background: #ffffff;
   box-shadow: 1px 4px 4px 1px rgba(85, 85, 85, 0.25);
@@ -24,4 +28,9 @@
 .p {
   display: flex;
   justify-content: space-between;
+}
+.img-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
